@@ -9,6 +9,9 @@ beinhaltet die Realisierung im November/Dezember 2020 auf einem Breadboard mit d
 Release 1.2 (nächste Aufgabe)
 beinhaltet die Realisierung auf einem Breadboard mit dem Silicon Labs SDR Chipset SI4740-D60-GU (in der SSOP Bauweise), welcher MW, FM und SW kann. Das Display ST7735S wird dabei wenn möglich verwendet.
 
-Release 1.3 (übernächste Aufgabe)
+Release 1.2a (übernächste Aufgabe)
+beinhaltet die Realisierung des sogenannten Datensammelpunkts sowie der Speicherung der Daten für spätere Auswertungen. Die Empfangssignalstärke sowie die GPS-Daten sollen aufgenommen, zeitlich verknüpft und raw gespeichert werden. 
+
+Release 1.3 (weitere Aufgabe)
 beinhaltet die Realisierung auf einem eigenen Board, welches mit KICAD geplant wird und dessen Fertigung in China inklusive Bestückung erfolgt. Dabei können nur Bauteile vom Produzenten auf der Platine eingebaut werden. Die Integration des Silicon Labs SDR Chipset SI4735-D60-GU (SSOP Bauweise) wird dann abschliessend manuell in der Schweiz bestückt
 und getestet.
