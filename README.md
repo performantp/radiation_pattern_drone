@@ -1,4 +1,4 @@
-# radiation_pattern_drone 
+# Radiation Pattern Drone Project 
 README
 
 Die mit MMANA oder 4NEC berechneten Antennen sollen mit einer Drohne auf Abstrahlungscharakteristik und Abstrahlungswinkel ausgemessen und überprüft werden. Die erstellten versionierten Sources, Compiler Scripts für Arduino Uno, das Schema, das KICAD für die Plattine, Silicon Labs Hersteller Unterlagen zum benutzten SDR-Chipset sowie Hersteller Antennen Spezifikation oder ähnlich und die Dokumentationen in Mind Map, pdf-Files, HTML-Files und Word-Files sollen für weitere Projektmitglieder lesbar abgelegt werden.
