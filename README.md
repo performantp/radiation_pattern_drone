@@ -15,6 +15,6 @@ beinhaltet die Realisierung auf einem eigenen Board mit einem ESP32 Prozessor mi
 Release 1.3a (nächste Aufgabe)
 beinhaltet die Realisierung des sogenannten Datensammelpunkts gemäss Datenmodell sowie der Speicherung der Daten für spätere Auswertungen. Die Empfangssignalstärke sowie die GPS-Daten (es könnten die GPS-Daten der Drohne sein) sollen aufgenommen, zeitlich verknüpft und raw gespeichert werden. 
 
-Release 1.3 (weitere Aufgaben) 
+Release 1.4 (weitere Aufgaben) 
 beinhaltet die Realisierung von Auswertungen nach Abzug über WLAN oder Bluetooth von der Drohne auf einen PC. Diese können als erstes Proof of Concept für die Auswertung des Abstrahlwinkels und den weiteren Sendekeulen manuell oder automatisch mit einer Python Programmierung erfolgen. 
 
