@@ -75,13 +75,13 @@ $EndComp
 $Comp
 L RF_Module:ESP32-WROOM-32 U?
 U 1 1 5FE21011
-P 3150 3400
-F 0 "U?" H 3150 4981 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 3150 4890 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 3150 1900 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2850 3450 50  0001 C CNN
-F 4 "C82899" H 3150 3400 50  0001 C CNN "LCSC Part #"
-	1    3150 3400
+P 2250 3550
+F 0 "U?" H 2200 4150 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 2150 4250 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 2250 2050 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1950 3600 50  0001 C CNN
+F 4 "C82899" H 2250 3550 50  0001 C CNN "LCSC Part #"
+	1    2250 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -387,29 +387,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5FF5DBC6
-P 3150 4850
-F 0 "#PWR?" H 3150 4600 50  0001 C CNN
-F 1 "GND" H 3155 4677 50  0000 C CNN
-F 2 "" H 3150 4850 50  0001 C CNN
-F 3 "" H 3150 4850 50  0001 C CNN
-	1    3150 4850
+P 2250 5050
+F 0 "#PWR?" H 2250 4800 50  0001 C CNN
+F 1 "GND" H 2255 4877 50  0000 C CNN
+F 2 "" H 2250 5050 50  0001 C CNN
+F 3 "" H 2250 5050 50  0001 C CNN
+	1    2250 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 4850 3150 4800
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5FF5F2F9
-P 3150 1700
-F 0 "#PWR?" H 3150 1550 50  0001 C CNN
-F 1 "+3V3" H 3165 1873 50  0000 C CNN
-F 2 "" H 3150 1700 50  0001 C CNN
-F 3 "" H 3150 1700 50  0001 C CNN
-	1    3150 1700
+P 2250 1450
+F 0 "#PWR?" H 2250 1300 50  0001 C CNN
+F 1 "+3V3" H 2265 1623 50  0000 C CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "" H 2250 1450 50  0001 C CNN
+	1    2250 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 1700 3150 2000
 $Comp
 L Device:C C?
 U 1 1 5FF69673
@@ -714,30 +710,315 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 60185703
-P 2450 1950
-F 0 "R?" H 2520 1996 50  0000 L CNN
-F 1 "10k" H 2520 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2380 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 2450 1950 50  0001 C CNN
-F 4 "C25804" H 2450 1950 50  0001 C CNN "LCSC Part #"
-	1    2450 1950
+P 1350 1750
+F 0 "R?" H 1200 1800 50  0000 L CNN
+F 1 "10k(TBD)" H 950 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1280 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1350 1750 50  0001 C CNN
+F 4 "C25804" H 1350 1750 50  0001 C CNN "LCSC Part #"
+	1    1350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60186315
-P 2450 1700
-F 0 "#PWR?" H 2450 1550 50  0001 C CNN
-F 1 "+3V3" H 2465 1873 50  0000 C CNN
-F 2 "" H 2450 1700 50  0001 C CNN
-F 3 "" H 2450 1700 50  0001 C CNN
-	1    2450 1700
+P 1350 1450
+F 0 "#PWR?" H 1350 1300 50  0001 C CNN
+F 1 "+3V3" H 1365 1623 50  0000 C CNN
+F 2 "" H 1350 1450 50  0001 C CNN
+F 3 "" H 1350 1450 50  0001 C CNN
+	1    1350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 60184A9E
+P 3100 1250
+F 0 "J?" V 3038 962 50  0000 R CNN
+F 1 "JTAG" V 2947 962 50  0000 R CNN
+F 2 "" H 3100 1250 50  0001 C CNN
+F 3 "~" H 3100 1250 50  0001 C CNN
+	1    3100 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6018B847
+P 3000 1650
+F 0 "R?" H 2950 1700 50  0000 L CNN
+F 1 "100R" H 2750 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 3000 1650 50  0001 C CNN
+F 4 "C22775" H 3000 1650 50  0001 C CNN "LCSC Part #"
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601A0FF0
+P 3100 1650
+F 0 "R?" H 3050 1700 50  0000 L CNN
+F 1 "100R" H 2750 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3030 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 3100 1650 50  0001 C CNN
+F 4 "C22775" H 3100 1650 50  0001 C CNN "LCSC Part #"
+	1    3100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601A15E7
+P 3200 1650
+F 0 "R?" H 3150 1700 50  0000 L CNN
+F 1 "100R" H 3350 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3130 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 3200 1650 50  0001 C CNN
+F 4 "C22775" H 3200 1650 50  0001 C CNN "LCSC Part #"
+	1    3200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601A1B9E
+P 3300 1650
+F 0 "R?" H 3250 1700 50  0000 L CNN
+F 1 "100R" H 3350 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3230 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 3300 1650 50  0001 C CNN
+F 4 "C22775" H 3300 1650 50  0001 C CNN "LCSC Part #"
+	1    3300 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 1700 2450 1800
+	3000 1450 3000 1500
 Wire Wire Line
-	2450 2100 2450 2200
+	3100 1450 3100 1500
 Wire Wire Line
-	2450 2200 2550 2200
+	3200 1450 3200 1500
+Wire Wire Line
+	3300 1450 3300 1500
+$Comp
+L power:GND #PWR?
+U 1 1 601B7243
+P 3700 1600
+F 0 "#PWR?" H 3700 1350 50  0001 C CNN
+F 1 "GND" H 3705 1427 50  0000 C CNN
+F 2 "" H 3700 1600 50  0001 C CNN
+F 3 "" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4950 2250 5050
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 601D41C1
+P 3700 1250
+F 0 "J?" V 3638 1062 50  0000 R CNN
+F 1 "Boot Option" V 3547 1062 50  0000 R CNN
+F 2 "" H 3700 1250 50  0001 C CNN
+F 3 "~" H 3700 1250 50  0001 C CNN
+	1    3700 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 2350 3800 2350
+Wire Wire Line
+	3700 1450 3700 1600
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 601F83A6
+P 4550 1250
+F 0 "J?" V 4488 1062 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 4397 1062 50  0000 R CNN
+F 2 "" H 4550 1250 50  0001 C CNN
+F 3 "~" H 4550 1250 50  0001 C CNN
+	1    4550 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 2450 4650 2450
+Wire Wire Line
+	2850 2650 4550 2650
+$Comp
+L power:GND #PWR?
+U 1 1 60206B20
+P 4450 1600
+F 0 "#PWR?" H 4450 1350 50  0001 C CNN
+F 1 "GND" H 4455 1427 50  0000 C CNN
+F 2 "" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1600 4450 1450
+$Comp
+L Device:C C?
+U 1 1 6020B30D
+P 2100 1750
+F 0 "C?" H 2000 1850 50  0000 L CNN
+F 1 "100nF" H 1850 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2138 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 2100 1750 50  0001 C CNN
+F 4 " C14663" H 2100 1750 50  0001 C CNN "LCSC Part #"
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6020BD82
+P 1850 1750
+F 0 "C?" H 1750 1850 50  0000 L CNN
+F 1 "10uF" H 1650 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 1850 1750 50  0001 C CNN
+F 4 "C19702" H 1850 1750 50  0001 C CNN "LCSC Part #"
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60221D4A
+P 1850 2000
+F 0 "#PWR?" H 1850 1750 50  0001 C CNN
+F 1 "GND" H 1855 1827 50  0000 C CNN
+F 2 "" H 1850 2000 50  0001 C CNN
+F 3 "" H 1850 2000 50  0001 C CNN
+	1    1850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2000 1850 1950
+Wire Wire Line
+	2100 1600 2100 1550
+Wire Wire Line
+	2100 1550 1850 1550
+Wire Wire Line
+	1850 1550 1850 1600
+Wire Wire Line
+	1850 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 1900
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1950 1850 1900
+Wire Wire Line
+	1850 1950 1700 1950
+$Comp
+L Device:C C?
+U 1 1 6027D5B5
+P 1550 1950
+F 0 "C?" H 1350 1900 50  0000 L CNN
+F 1 "100nF(TBD)" H 1000 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1588 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 1550 1950 50  0001 C CNN
+F 4 " C14663" H 1550 1950 50  0001 C CNN "LCSC Part #"
+	1    1550 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1450 2250 1550
+Wire Wire Line
+	2100 1550 2250 1550
+Connection ~ 2100 1550
+Connection ~ 2250 1550
+Wire Wire Line
+	2250 1550 2250 2150
+Wire Wire Line
+	1350 1900 1350 1950
+Wire Wire Line
+	1350 1950 1400 1950
+Wire Wire Line
+	1350 1950 1350 2350
+Wire Wire Line
+	1350 2350 1650 2350
+Connection ~ 1350 1950
+Wire Wire Line
+	1350 1600 1350 1450
+Wire Wire Line
+	3100 2950 2850 2950
+Wire Wire Line
+	3000 3150 2850 3150
+Wire Wire Line
+	2850 3050 3200 3050
+Wire Wire Line
+	3300 3250 2850 3250
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 602E0A41
+P 3100 4850
+F 0 "JP?" V 3054 4918 50  0000 L CNN
+F 1 "MTDI low when power up" V 3145 4918 50  0000 L CNN
+F 2 "" H 3100 4850 50  0001 C CNN
+F 3 "~" H 3100 4850 50  0001 C CNN
+	1    3100 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602EAC63
+P 3100 5050
+F 0 "#PWR?" H 3100 4800 50  0001 C CNN
+F 1 "GND" H 3105 4877 50  0000 C CNN
+F 2 "" H 3100 5050 50  0001 C CNN
+F 3 "" H 3100 5050 50  0001 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5050 3100 5000
+Wire Wire Line
+	3100 4700 3100 2950
+Text Notes 3000 1200 1    50   ~ 0
+MTMS
+Text Notes 3100 1200 1    50   ~ 0
+MTDI
+Text Notes 3200 1200 1    50   ~ 0
+MTCK
+Text Notes 3300 1200 1    50   ~ 0
+MTDO
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6031E674
+P 2550 1250
+F 0 "J?" V 2612 1294 50  0000 L CNN
+F 1 "Power" V 2703 1294 50  0000 L CNN
+F 2 "" H 2550 1250 50  0001 C CNN
+F 3 "~" H 2550 1250 50  0001 C CNN
+	1    2550 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1450 4650 2450
+Wire Wire Line
+	4550 2650 4550 1450
+Wire Wire Line
+	3800 1450 3800 2350
+Wire Wire Line
+	3300 1800 3300 3250
+Wire Wire Line
+	3200 1800 3200 3050
+Wire Wire Line
+	3100 1800 3100 2950
+Connection ~ 3100 2950
+Wire Wire Line
+	3000 1800 3000 3150
+Wire Wire Line
+	2250 1550 2450 1550
+Wire Wire Line
+	2450 1550 2450 1450
+$Comp
+L power:GND #PWR?
+U 1 1 60368C96
+P 2550 1600
+F 0 "#PWR?" H 2550 1350 50  0001 C CNN
+F 1 "GND" H 2555 1427 50  0000 C CNN
+F 2 "" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2550 1450
 $EndSCHEMATC
