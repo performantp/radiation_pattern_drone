@@ -810,49 +810,21 @@ F 3 "" H 3700 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 4950 2250 5050
-$Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 601D41C1
-P 3700 1250
-F 0 "J?" V 3638 1062 50  0000 R CNN
-F 1 "Boot Option" V 3547 1062 50  0000 R CNN
-F 2 "" H 3700 1250 50  0001 C CNN
-F 3 "~" H 3700 1250 50  0001 C CNN
-	1    3700 1250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2850 2350 3800 2350
 Wire Wire Line
 	3700 1450 3700 1600
 $Comp
-L Connector:Conn_01x03_Female J?
-U 1 1 601F83A6
-P 4550 1250
-F 0 "J?" V 4488 1062 50  0000 R CNN
-F 1 "Conn_01x03_Female" V 4397 1062 50  0000 R CNN
-F 2 "" H 4550 1250 50  0001 C CNN
-F 3 "~" H 4550 1250 50  0001 C CNN
-	1    4550 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2850 2450 4650 2450
-Wire Wire Line
-	2850 2650 4550 2650
-$Comp
 L power:GND #PWR?
 U 1 1 60206B20
-P 4450 1600
-F 0 "#PWR?" H 4450 1350 50  0001 C CNN
-F 1 "GND" H 4455 1427 50  0000 C CNN
-F 2 "" H 4450 1600 50  0001 C CNN
-F 3 "" H 4450 1600 50  0001 C CNN
-	1    4450 1600
+P 3900 1600
+F 0 "#PWR?" H 3900 1350 50  0001 C CNN
+F 1 "GND" H 3905 1427 50  0000 C CNN
+F 2 "" H 3900 1600 50  0001 C CNN
+F 3 "" H 3900 1600 50  0001 C CNN
+	1    3900 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 1600 4450 1450
 $Comp
 L Device:C C?
 U 1 1 6020B30D
@@ -990,10 +962,6 @@ F 3 "~" H 2550 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4650 1450 4650 2450
-Wire Wire Line
-	4550 2650 4550 1450
-Wire Wire Line
 	3800 1450 3800 2350
 Wire Wire Line
 	3300 1800 3300 3250
@@ -1021,4 +989,265 @@ F 3 "" H 2550 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 1600 2550 1450
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 6032807C
+P 3900 1250
+F 0 "J?" V 3838 862 50  0000 R CNN
+F 1 "Conn_01x06_Female" V 4200 1600 50  0000 R CNN
+F 2 "" H 3900 1250 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 2650 4000 2650
+Wire Wire Line
+	4000 2650 4000 1450
+Wire Wire Line
+	3900 1450 3900 1600
+Wire Wire Line
+	4100 1450 4100 2450
+Wire Wire Line
+	4100 2450 2850 2450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6037DB49
+P 4500 1450
+F 0 "#PWR?" H 4500 1300 50  0001 C CNN
+F 1 "+3V3" H 4515 1623 50  0000 C CNN
+F 2 "" H 4500 1450 50  0001 C CNN
+F 3 "" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1450 4200 1550
+Wire Wire Line
+	4200 1550 4500 1550
+Wire Wire Line
+	4500 1550 4500 1450
+Text Notes 4000 1200 1    50   ~ 0
+RX
+Text Notes 4100 1200 1    50   ~ 0
+TX
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 60387AD8
+P 1050 6000
+F 0 "J?" H 942 5675 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 942 5766 50  0000 C CNN
+F 2 "" H 1050 6000 50  0001 C CNN
+F 3 "~" H 1050 6000 50  0001 C CNN
+	1    1050 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60388B77
+P 1350 6400
+F 0 "#PWR?" H 1350 6150 50  0001 C CNN
+F 1 "GND" H 1355 6227 50  0000 C CNN
+F 2 "" H 1350 6400 50  0001 C CNN
+F 3 "" H 1350 6400 50  0001 C CNN
+	1    1350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 6038F504
+P 1550 5900
+F 0 "F?" H 1550 6085 50  0000 C CNN
+F 1 "Fuse_Small" H 1550 5994 50  0000 C CNN
+F 2 "" H 1550 5900 50  0001 C CNN
+F 3 "~" H 1550 5900 50  0001 C CNN
+	1    1550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 6039141E
+P 1750 6150
+F 0 "D?" V 1704 6230 50  0000 L CNN
+F 1 "D_Schottky" V 1795 6230 50  0000 L CNN
+F 2 "" H 1750 6150 50  0001 C CNN
+F 3 "" H 1750 6150 50  0001 C CNN
+F 4 "" V 1750 6150 50  0001 C CNN "LCSC Part #"
+	1    1750 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603930CA
+P 1750 6400
+F 0 "#PWR?" H 1750 6150 50  0001 C CNN
+F 1 "GND" H 1755 6227 50  0000 C CNN
+F 2 "" H 1750 6400 50  0001 C CNN
+F 3 "" H 1750 6400 50  0001 C CNN
+	1    1750 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6000 1350 6000
+Wire Wire Line
+	1350 6000 1350 6400
+Wire Wire Line
+	1750 6400 1750 6300
+Wire Wire Line
+	1750 6000 1750 5900
+Wire Wire Line
+	1750 5900 1650 5900
+Wire Wire Line
+	1450 5900 1250 5900
+$Comp
+L Device:C C?
+U 1 1 604064A7
+P 2500 6150
+F 0 "C?" H 2400 6250 50  0000 L CNN
+F 1 "10uF" H 2300 6050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 2500 6150 50  0001 C CNN
+F 4 "C46653" H 2500 6150 50  0001 C CNN "LCSC Part #"
+	1    2500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60407338
+P 3000 6150
+F 0 "C?" H 2900 6250 50  0000 L CNN
+F 1 "10uF" H 2800 6050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3038 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 3000 6150 50  0001 C CNN
+F 4 "C46653" H 3000 6150 50  0001 C CNN "LCSC Part #"
+	1    3000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 6040B749
+P 2750 5900
+F 0 "FB?" V 2476 5900 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2567 5900 50  0000 C CNN
+F 2 "" V 2680 5900 50  0001 C CNN
+F 3 "~" H 2750 5900 50  0001 C CNN
+	1    2750 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 5900 2500 5900
+Wire Wire Line
+	2500 5900 2500 6000
+Connection ~ 1750 5900
+Wire Wire Line
+	2500 5900 2600 5900
+Connection ~ 2500 5900
+$Comp
+L power:GND #PWR?
+U 1 1 6043D8D8
+P 2500 6400
+F 0 "#PWR?" H 2500 6150 50  0001 C CNN
+F 1 "GND" H 2505 6227 50  0000 C CNN
+F 2 "" H 2500 6400 50  0001 C CNN
+F 3 "" H 2500 6400 50  0001 C CNN
+	1    2500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604412BA
+P 3000 6400
+F 0 "#PWR?" H 3000 6150 50  0001 C CNN
+F 1 "GND" H 3005 6227 50  0000 C CNN
+F 2 "" H 3000 6400 50  0001 C CNN
+F 3 "" H 3000 6400 50  0001 C CNN
+	1    3000 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6300 2500 6400
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U?
+U 1 1 6045179B
+P 3400 5900
+F 0 "U?" H 3400 6142 50  0000 C CNN
+F 1 "LD1117S33TR_SOT223" H 3400 6051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3400 6100 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 3500 5650 50  0001 C CNN
+F 4 "C23984" H 3400 5900 50  0001 C CNN "LCSC Part #"
+	1    3400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60454147
+P 3400 6400
+F 0 "#PWR?" H 3400 6150 50  0001 C CNN
+F 1 "GND" H 3405 6227 50  0000 C CNN
+F 2 "" H 3400 6400 50  0001 C CNN
+F 3 "" H 3400 6400 50  0001 C CNN
+	1    3400 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6400 3000 6300
+Wire Wire Line
+	3400 6400 3400 6200
+Wire Wire Line
+	3100 5900 3000 5900
+Wire Wire Line
+	3000 6000 3000 5900
+Connection ~ 3000 5900
+Wire Wire Line
+	3000 5900 2900 5900
+$Comp
+L Device:D_Schottky D?
+U 1 1 60484E0E
+P 3400 5500
+F 0 "D?" H 3400 5717 50  0000 C CNN
+F 1 "D_Schottky" H 3400 5626 50  0000 C CNN
+F 2 "" H 3400 5500 50  0001 C CNN
+F 3 "" H 3400 5500 50  0001 C CNN
+F 4 "" V 3400 5500 50  0001 C CNN "LCSC Part #"
+	1    3400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5900 3000 5500
+Wire Wire Line
+	3000 5500 3250 5500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6048D76C
+P 3800 6000
+F 0 "TP?" H 3742 6026 50  0000 R CNN
+F 1 "TestPoint" H 3742 6117 50  0000 R CNN
+F 2 "" H 4000 6000 50  0001 C CNN
+F 3 "~" H 4000 6000 50  0001 C CNN
+	1    3800 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 5500 3800 5500
+Wire Wire Line
+	3800 5500 3800 5900
+Wire Wire Line
+	3700 5900 3800 5900
+Connection ~ 3800 5900
+Wire Wire Line
+	3800 5900 3800 6000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 604B040C
+P 3800 5400
+F 0 "#PWR?" H 3800 5250 50  0001 C CNN
+F 1 "+3V3" H 3815 5573 50  0000 C CNN
+F 2 "" H 3800 5400 50  0001 C CNN
+F 3 "" H 3800 5400 50  0001 C CNN
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5400 3800 5500
+Connection ~ 3800 5500
 $EndSCHEMATC
