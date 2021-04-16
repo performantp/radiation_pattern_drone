@@ -1,2 +1,2 @@
-Antennas calculated either with programs like i.e. MMANA or 4NEC shall be checked and measured with a drone for its real transmission angle and further antenna characteristcs. 
+Antennas calculated either with programs like i.e. MMANA or 4NEC shall be checked and measured with a drone for its real transmission angle and further antenna characteristics. 
 Versioned sources, compiler scripts for ESP32 processor, board's KICAD, Silicon Labs documentation, i.e. documentation for used SDR-chipset or other documentations presented in Mind Manager files, pdf-files and/or Word files shall be documented for additional project members. 
