@@ -1,1 +1,2 @@
-This is a test from Martin HB9GYF for an English readme file. It could be that in future it is recommanded to write i.e. documentation in German and English. Grossbuchstaben -- capital letters.
+Antennas calculated either with programs like i.e. MMANA or 4NEC shall be checked and measured with a drone for its real transmission angle and further antenna characteristcs. 
+Versioned sources, compiler scripts for ESP32 processor, board's KICAD, Silicon Labs documentation, i.e. documentation for used SDR-chipset or other documentations presented in Mind Manager files, pdf-files and/or Word files shall be documented for additional project members. 
