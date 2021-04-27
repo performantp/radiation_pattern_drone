@@ -1041,7 +1041,7 @@ U 1 1 6101FE8D
 P 6750 5400
 F 0 "J4" H 6850 5375 50  0000 L CNN
 F 1 "AM Antenna" H 6850 5284 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 6750 5400 50  0001 C CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6750 5400 50  0001 C CNN
 F 3 " ~" H 6750 5400 50  0001 C CNN
 	1    6750 5400
 	1    0    0    -1  
@@ -1297,7 +1297,8 @@ P 4000 3200
 F 0 "J6" H 4100 2850 50  0000 R CNN
 F 1 "GPS" H 3950 2850 50  0000 R CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 4000 3200 50  0001 C CNN
-F 3 "~" H 4000 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2010160407_CJT-Changjiang-Connectors-A1002WR-S-4P_C239522.pdf" H 4000 3200 50  0001 C CNN
+F 4 "C239522" H 4000 3200 50  0001 C CNN "LCSC Part #"
 	1    4000 3200
 	-1   0    0    1   
 $EndComp
