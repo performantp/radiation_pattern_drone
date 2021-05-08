@@ -12,10 +12,12 @@ Das SDR PCB ist am 08.05.2021 fertig designed und geht bald in die Fertigung nac
 Release 1.3b (nächste Aufgabe)
 Mit der kleinen Drohne und einer Last von 30g und einem Gesamtgewicht kleiner 250g eine zu messenden Antenne (voraussichtlich eine STL) in einem Stufenflug zu erfliegen, damit daraus die Abstrahlcharakteristik der Antenne ermittelt werden kann. Analysieren wieviele Messungen im Flug pro Sekunde durchgeführt werden müssen, damit die Abstrahlcharakteristik ermittelt werden kann. Analysieren, ob sich im PoC dazu der WSPR-Ansatz eignet. Analysieren, wie z.B. grosse Beam-Antennen auf so kleine Aussendungen in 200m rund um die Antenne reagieren/gemessen werden können. Analysieren, ob sich die kleine Stabantenne im PoC eigenet oder ob eine Drahtantenne realisiert werden soll. Analysieren, wie sich eine Aussendung z.B. mit 1W im Flug eignet. Die generelle Datensammlung soll im PoC überprüft werden. Die Datenauswertung im PoC soll nach einem Flug innert 12h vorliegen. 
 
-Die Drohne Plan B1 wiegt mit Akku unter 250g und so werden wir dann unter den restriktiven gesetzlichen Anforderungen "in die Luft" kommen. 
+Die Drohne Plan B1 wiegt mit Akku unter 250g und so werden wir dann unter den restriktiven gesetzlichen Anforderungen "in die Luft" kommen.
+
 ![image](https://user-images.githubusercontent.com/75325994/117536469-76388600-affb-11eb-8f5e-1f46c41599b1.png)
 
 Die Drohne Plan B1 kann mehrere Way Points xyz fliegen und so müssten wir in der Lage sein, unser Stufenprofil auf verschiedenen Höhen auszufliegen. Die Drohne Plan B2 wurde bestellt und ist noch unterwegs in die Schweiz. 
+
 ![image](https://user-images.githubusercontent.com/75325994/117536531-cc0d2e00-affb-11eb-9d3a-64735a4267c8.png)
 
 Release 1.3c (übernächste Aufgabe)
