@@ -116,7 +116,7 @@ F 0 "C3" H 2115 6996 50  0000 L CNN
 F 1 "33nF" H 2115 6905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2038 6800 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B333KB8NNNC_C21117.pdf" H 2000 6950 50  0001 C CNN
-F 4 " C21117" H 2000 6950 50  0001 C CNN "LCSC Part #"
+F 4 "C21117" H 2000 6950 50  0001 C CNN "LCSC Part #"
 	1    2000 6950
 	1    0    0    -1  
 $EndComp
@@ -595,7 +595,7 @@ P 5650 2450
 F 0 "F1" H 5650 2635 50  0000 C CNN
 F 1 "Fuse_1A" H 5650 2544 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5650 2450 50  0001 C CNN
-F 3 "Shenzhen-lanson-Elec-12H1100C_C182308.pdf" H 5650 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808301741_Shenzhen-lanson-Elec-12H1100C_C182308.pdf" H 5650 2450 50  0001 C CNN
 F 4 "C182308" H 5650 2450 50  0001 C CNN "LCSC Part #"
 	1    5650 2450
 	1    0    0    -1  
@@ -630,7 +630,7 @@ P 7100 2700
 F 0 "C13" H 7000 2800 50  0000 L CNN
 F 1 "10uF" H 6900 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7138 2550 50  0001 C CNN
-F 3 "Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 7100 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 7100 2700 50  0001 C CNN
 F 4 "C13585" H 7100 2700 50  0001 C CNN "LCSC Part #"
 	1    7100 2700
 	1    0    0    -1  
@@ -765,7 +765,7 @@ P 6600 2700
 F 0 "C12" H 6500 2800 50  0000 L CNN
 F 1 "10uF" H 6400 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6638 2550 50  0001 C CNN
-F 3 "Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 6600 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 6600 2700 50  0001 C CNN
 F 4 "C13585" H 6600 2700 50  0001 C CNN "LCSC Part #"
 	1    6600 2700
 	1    0    0    -1  
@@ -777,7 +777,7 @@ P 1400 2200
 F 0 "C1" H 1300 2300 50  0000 L CNN
 F 1 "10uF" H 1200 2100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1438 2050 50  0001 C CNN
-F 3 "Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 1400 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 1400 2200 50  0001 C CNN
 F 4 "C13585" H 1400 2200 50  0001 C CNN "LCSC Part #"
 	1    1400 2200
 	1    0    0    -1  
@@ -869,7 +869,7 @@ P 4200 1500
 F 0 "C6" H 4250 1600 50  0000 L CNN
 F 1 "10uF" H 4250 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4238 1350 50  0001 C CNN
-F 3 "Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 4200 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 4200 1500 50  0001 C CNN
 F 4 "C13585" H 4200 1500 50  0001 C CNN "LCSC Part #"
 	1    4200 1500
 	1    0    0    -1  
@@ -1201,7 +1201,7 @@ F 0 "SW2" H 5100 1075 50  0000 C CNN
 F 1 "3V3 J5/J2" H 5100 1166 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 5100 1400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1809041640_ALPSALPINE-SSSS710607_C160876.pdf" H 5100 1400 50  0001 C CNN
-F 4 "C160876" H 5100 1400 50  0001 C CNN "Field4"
+F 4 "C160876" H 5100 1400 50  0001 C CNN "LCSC Part #"
 	1    5100 1400
 	-1   0    0    1   
 $EndComp
