@@ -1,0 +1,42 @@
+### Module positions - created on Tue May 25 18:33:48 2021 ###
+### Printed by Pcbnew version pcbnew 5.1.9+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref       Val                 Package                                              PosX       PosY       Rot  Side
+C1          10uF                C_1206_3216Metric_Pad1.33x1.80mm_HandSolder      149.6300   -99.4025   90.0000  top
+C2          100nF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      152.1700   -99.5175   90.0000  top
+C3          33nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      159.7900   -91.4900    0.0000  top
+C4          22pF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      152.8050   -81.4300  270.0000  top
+C5          100nF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      121.6900   -92.3525  270.0000  top
+C6          10uF                C_1206_3216Metric_Pad1.33x1.80mm_HandSolder      119.1500   -92.4675  270.0000  top
+C7          22pF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      150.2650   -81.4300   90.0000  top
+C8          68nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      152.4240   -77.3660  270.0000  top
+C9          100nF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      150.2650   -77.3930  270.0000  top
+C10         18pF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      161.0600   -81.3300    0.0000  top
+C11         470nF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      144.5500   -90.2200    0.0000  top
+C12         10uF                C_1206_3216Metric_Pad1.33x1.80mm_HandSolder      132.9930  -111.9100  180.0000  top
+C13         10uF                C_1206_3216Metric_Pad1.33x1.80mm_HandSolder      126.7700  -106.7300    0.0000  top
+D1          SM4007              D_MELF                                           131.8500  -102.9200  180.0000  top
+D2          CM1213A-01SO        SOT-23                                           159.7900   -87.7800  270.0000  top
+D3          CM1213A-01SO        SOT-23                                           144.5500   -94.0300   90.0000  top
+D4          SM4007              D_MELF                                           126.7700   -92.7600  180.0000  top
+F1          Fuse_1A             Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder   133.1200  -106.7300    0.0000  top
+FB1         1kΩ_@_100MHz       L_1210_3225Metric_Pad1.42x2.65mm_HandSolder      120.4200  -106.7300  180.0000  top
+FM_Antenna  J3                  SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount            161.0600   -75.9650   90.0000  top
+GPS         J6                  JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical   152.1700   -71.1700  270.0000  top
+L1          470nH               L_0603_1608Metric_Pad1.05x0.95mm_HandSolder      161.0600   -83.8700  180.0000  top
+Q1          S8050               SOT-23_Handsoldering                             144.5500   -97.8400    0.0000  top
+Q2          S8050               SOT-23_Handsoldering                             134.3900   -97.8400    0.0000  top
+R1          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      144.5500   -87.6800  180.0000  top
+R2          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      149.6300   -95.3000  180.0000  top
+R3          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      139.4700   -97.8400  270.0000  top
+R4          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      129.3100   -97.8400   90.0000  top
+R5          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      153.4400   -95.3000    0.0000  top
+R6          10k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder      154.5830   -77.3930  270.0000  top
+Reset_ESP   SW1                 SW_SPST_B3SL-1002P                               142.0100  -104.1900  180.0000  top
+U1          Si4734-D60-GU       SSOP-24_3.9x8.7mm_P0.635mm                       152.1700   -90.2200   90.0000  top
+U2          ESP32-WROOM-32      ESP32-WROOM-32                                   138.2000   -74.9800   90.0000  top
+U3          LD1117S33TR_SOT223  SOT-223-3_TabPin2                                122.9600  -100.3800  180.0000  top
+Y1          32.768kHz           Crystal_SMD_3215-2Pin_3.2x1.5mm                  151.5350   -84.8590  180.0000  top
+sel._3V3_   SW2                 SW_SPDT_CK-JS102011SAQN                          112.8000   -99.1100  270.0000  top
+## End
