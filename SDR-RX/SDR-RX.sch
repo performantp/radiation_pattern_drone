@@ -21,6 +21,7 @@ F 0 "U1" H 3750 7050 50  0000 C CNN
 F 1 "Si4734-D60-GU" H 4100 6700 50  0000 C CNN
 F 2 "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm" H 4350 5600 50  0001 L CNN
 F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf" H 4150 5300 50  0001 C CNN
+F 4 "" H 4100 6300 50  0001 C CNN "LCSC Part #"
 	1    4100 6300
 	1    0    0    -1  
 $EndComp
@@ -1036,11 +1037,11 @@ Wire Wire Line
 	950  4000 1200 4000
 Connection ~ 3100 6100
 $Comp
-L Connector:Conn_Coaxial J4
+L Connector:Conn_Coaxial SW-AM
 U 1 1 6101FE8D
 P 6750 5400
-F 0 "J4" H 6850 5375 50  0000 L CNN
-F 1 "AM Antenna" H 6850 5284 50  0000 L CNN
+F 0 "SW-AM" H 6850 5375 50  0000 L CNN
+F 1 "J4" H 6850 5284 50  0000 L CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6750 5400 50  0001 C CNN
 F 3 " ~" H 6750 5400 50  0001 C CNN
 	1    6750 5400
@@ -1161,11 +1162,11 @@ F 4 "C25804" H 2950 2000 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J3
+L Connector:Conn_Coaxial FM
 U 1 1 6010BDF0
 P 6250 6600
-F 0 "J3" H 6350 6575 50  0000 L CNN
-F 1 "FM Antenna" H 6350 6484 50  0000 L CNN
+F 0 "FM" H 6350 6575 50  0000 L CNN
+F 1 "J3" H 6350 6484 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 6250 6600 50  0001 C CNN
 F 3 " ~" H 6250 6600 50  0001 C CNN
 	1    6250 6600
@@ -1291,11 +1292,11 @@ F 3 "~" H 8500 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J6
+L Connector:Conn_01x04_Male GPS
 U 1 1 6078FB5B
 P 4000 3200
-F 0 "J6" H 4100 2850 50  0000 R CNN
-F 1 "GPS" H 3950 2850 50  0000 R CNN
+F 0 "GPS" H 4100 2850 50  0000 R CNN
+F 1 "J6" H 3950 2850 50  0000 R CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 4000 3200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2010160407_CJT-Changjiang-Connectors-A1002WR-S-4P_C239522.pdf" H 4000 3200 50  0001 C CNN
 F 4 "C239522" H 4000 3200 50  0001 C CNN "LCSC Part #"
