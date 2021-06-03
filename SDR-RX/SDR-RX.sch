@@ -1037,10 +1037,10 @@ Wire Wire Line
 	950  4000 1200 4000
 Connection ~ 3100 6100
 $Comp
-L Connector:Conn_Coaxial SW-AM
+L Connector:Conn_Coaxial SW-AM1
 U 1 1 6101FE8D
 P 6750 5400
-F 0 "SW-AM" H 6850 5375 50  0000 L CNN
+F 0 "SW-AM1" H 6850 5375 50  0000 L CNN
 F 1 "J4" H 6850 5284 50  0000 L CNN
 F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 6750 5400 50  0001 C CNN
 F 3 " ~" H 6750 5400 50  0001 C CNN
@@ -1162,10 +1162,10 @@ F 4 "C25804" H 2950 2000 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial FM
+L Connector:Conn_Coaxial FM1
 U 1 1 6010BDF0
 P 6250 6600
-F 0 "FM" H 6350 6575 50  0000 L CNN
+F 0 "FM1" H 6350 6575 50  0000 L CNN
 F 1 "J3" H 6350 6484 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 6250 6600 50  0001 C CNN
 F 3 " ~" H 6250 6600 50  0001 C CNN
@@ -1292,12 +1292,12 @@ F 3 "~" H 8500 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male GPS
+L Connector:Conn_01x04_Male GPS1
 U 1 1 6078FB5B
 P 4000 3200
-F 0 "GPS" H 4100 2850 50  0000 R CNN
-F 1 "J6" H 3950 2850 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 4000 3200 50  0001 C CNN
+F 0 "GPS1" H 4100 2850 50  0000 R CNN
+F 1 "J6" H 4050 2750 50  0000 R CNN
+F 2 "hb9gvd:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical-GPS" H 4000 3200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2010160407_CJT-Changjiang-Connectors-A1002WR-S-4P_C239522.pdf" H 4000 3200 50  0001 C CNN
 F 4 "C239522" H 4000 3200 50  0001 C CNN "LCSC Part #"
 	1    4000 3200
