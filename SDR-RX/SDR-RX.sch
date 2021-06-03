@@ -552,11 +552,11 @@ Connection ~ 1650 2000
 Wire Wire Line
 	1800 2000 1800 2600
 $Comp
-L Connector:Conn_01x07_Female J1
+L Connector:Conn_01x07_Female Program1
 U 1 1 6032807C
 P 3500 1000
-F 0 "J1" V 3750 900 50  0000 R CNN
-F 1 "Program" V 3750 1300 50  0000 R CNN
+F 0 "Program1" V 3750 900 50  0000 R CNN
+F 1 "J1" V 3750 1300 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal" H 3500 1000 50  0001 C CNN
 F 3 "" H 3500 1000 50  0001 C CNN
 	1    3500 1000
@@ -783,11 +783,11 @@ F 4 "C13585" H 1400 2200 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male GND
+L Connector:Conn_01x03_Male GND1
 U 1 1 6056D8FD
 P 10050 1300
-F 0 "GND" V 10112 1444 50  0000 L CNN
-F 1 "Conn_01x03_Male" V 10203 1444 50  0000 L CNN
+F 0 "GND1" V 10112 1444 50  0000 L CNN
+F 1 "GND TP" V 10203 1444 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10050 1300 50  0001 C CNN
 F 3 "~" H 10050 1300 50  0001 C CNN
 	1    10050 1300
