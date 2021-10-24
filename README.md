@@ -18,9 +18,9 @@ Es gibt nun ein paar Fotos dazu.
 Das ist ein ganz leichter Rasperi pi-pico mit nur 4g und kann Interpreter-mässig das gleiche wie ein Rasperi Zero W. 
 ![IMG_2488](https://user-images.githubusercontent.com/75325994/138608837-9320754c-431b-47e7-acee-5e92714bac29.JPG)
 
-Das ist ein Rasperi Zero W, welcher in einem Gehäude ist und u.U. auch je nach Ausbau noch einen Ventilator hat. ![image](https://user-images.githubusercontent.com/75325994/138609150-a2356b80-87dc-4dae-8c9c-ba1715ab2255.png)
+Das ist ein Rasperi Zero W, welcher in einem Gehäude ist und u.U. auch je nach Ausbau noch einen Ventilator hat. ![IMG_2486](https://user-images.githubusercontent.com/75325994/138609320-abbbe53e-8d66-4c8a-87a9-6229dc443f5f.JPG)
 
-Der Transverter vor dem RTL. ![image](https://user-images.githubusercontent.com/75325994/138609201-514560f2-102d-48c4-af33-53032b89854d.png)
+Der Transverter vor dem RTL. ![IMG_2483](https://user-images.githubusercontent.com/75325994/138609292-2ed04b7c-ba7c-469d-91d8-8a4dcbec9fe4.JPG)
 
 Wo wir dieses Teil einsetzen hat Martin HB9GYF nach einer Woche vergessen, aber das Bild wird eingetragen und dann nochmals nachgefragt. ![IMG_2481](https://user-images.githubusercontent.com/75325994/138609236-c0fbcf52-03bb-46bf-9851-cc18ac5ef653.JPG)
 
