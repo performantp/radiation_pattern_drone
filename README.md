@@ -10,6 +10,8 @@ Release 1.4a es wurden anschliessend zwei Lösungsvarianten evaluiert.
 Variante 1: Welche anfangs Oktober 2021 nun bereits mit einem ersten Test läuft, ist folgende: Mit einem Raspi auf dem rtl_power läuft und RTL-SDR mit einen Transverter
 (47g) wird ein Frequenzbereich von 7-14 MHz überwacht und die gemessenen Werte werden mit einem Python Programm auf einem Raspi Zero W (40g) abgegriffen und dargestellt (Kabel und Antennen ca. 50g). Die ersten Messergebnisse sind so, dass man die gemessenen Werte noch gegenüber dem S-Level kalibrieren muss.
 
+Hier ein Test, welcher Signale mit verschiedenen Stärken aufzeigt. Es gibt im Moment jeweils pro Messung ein Bild und eine CSV-Datei. ![test2 (2)](https://user-images.githubusercontent.com/75325994/138609689-4b1487d7-03be-4b3a-8b3c-0ba8b6e033e1.jpg)
+
 Variante 2: Im Hintergrund ist noch folgende zweite Lösung angedacht und die entsprechende Hardware wurde im September 2021 bereits beschafft.
 Mit einem Raspi Zero W (40g) sollen die Messwerte von einem RTL-SDR mit integriertem Transverter aufgesammelt werden und die Daten anschliessend mit rtl_power und/oder Python ausgewertet werden.
 Es gibt nun ein paar Fotos dazu. Hier ein Rasperi Zero W ohne Gehäuse. 
