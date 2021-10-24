@@ -15,11 +15,18 @@ Mit einem Raspi Zero W (40g) sollen die Messwerte von einem RTL-SDR mit integrie
 Es gibt nun ein paar Fotos dazu.
 ![IMG_2489](https://user-images.githubusercontent.com/75325994/138608807-b7c73539-5f7c-415f-b8b7-e62ec20a3a13.JPG)
 
-Das ist ein ganz leichter Rasperi pi-pico mit nur 4g. 
+Das ist ein ganz leichter Rasperi pi-pico mit nur 4g und kann Interpreter-mässig das gleiche wie ein Rasperi Zero W. 
 ![IMG_2488](https://user-images.githubusercontent.com/75325994/138608837-9320754c-431b-47e7-acee-5e92714bac29.JPG)
 
+Das ist ein Rasperi Zero W, welcher in einem Gehäude ist und u.U. auch je nach Ausbau noch einen Ventilator hat. ![image](https://user-images.githubusercontent.com/75325994/138609150-a2356b80-87dc-4dae-8c9c-ba1715ab2255.png)
+
+Der Transverter vor dem RTL. ![image](https://user-images.githubusercontent.com/75325994/138609201-514560f2-102d-48c4-af33-53032b89854d.png)
+
+Wo wir dieses Teil einsetzen hat Martin HB9GYF nach einer Woche vergessen, aber das Bild wird eingetragen und dann nochmals nachgefragt. ![IMG_2481](https://user-images.githubusercontent.com/75325994/138609236-c0fbcf52-03bb-46bf-9851-cc18ac5ef653.JPG)
 
 Zu der Programmiersprache Python wurde von HB9FRV Ende September 2021 ein USKA HamAcademy durchgeführt. Es gibt voraussichtlich noch weitere Python Kurse. Auch wie man mit Python SDR Implementationen erstellt, wird von Mathias HB9FRV im Rahmen der USKA HamAcademy vermittelt. Daniel HB9GVD wird am 23.10.2021 am Kurs teilnehmen. Die Kurse sind für USKA Mitglieder mit 60.- CHF Kursgeld zugänglich. Auch dieser Kurs wird ev. wiederholt.
+
+Python ist eine Interpreter Sprache, aber die Source wird auf eine andere Plattform mitgeben. Es wird dann zuerst (einmalig) eine Art Compiler gestartet, der einmal abläuft und dann startet der Interpreter auf diesem Element auf. 
 
 Das Team sucht weitere Interessierte, wenn möglich mit Python Kompetenz, welche die Python Aktivitäten unterstützen können. Interessenten melden sich bitte bei Martin HB9GYF oder Daniel HB9GVD.
 
