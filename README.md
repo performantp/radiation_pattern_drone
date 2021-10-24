@@ -24,6 +24,8 @@ Das ist ein Rasperi Zero W, welcher in einem Gehäude ist und u.U. auch je nach 
 
 Der Transverter vor dem RTL. ![IMG_2483](https://user-images.githubusercontent.com/75325994/138609292-2ed04b7c-ba7c-469d-91d8-8a4dcbec9fe4.JPG)
 
+Hier sieht man alle Teile vom Transverter, über RTL-SDR und Rasperi im Testaufbau auf dem Balkon von Daniel HB9GVD. Daran angeschlossen ist natürlich noch eine Antenne (nicht sichtbar). ![IMG_2485](https://user-images.githubusercontent.com/75325994/138609799-c80ce4d9-df4f-452c-88a0-2fd502e1bccd.JPG)
+
 Wo wir dieses Teil einsetzen hat Martin HB9GYF nach einer Woche vergessen, aber das Bild wird eingetragen und dann nochmals nachgefragt. ![IMG_2481](https://user-images.githubusercontent.com/75325994/138609236-c0fbcf52-03bb-46bf-9851-cc18ac5ef653.JPG)
 
 Zu der Programmiersprache Python wurde von HB9FRV Ende September 2021 ein USKA HamAcademy durchgeführt. Es gibt voraussichtlich noch weitere Python Kurse. Auch wie man mit Python SDR Implementationen erstellt, wird von Mathias HB9FRV im Rahmen der USKA HamAcademy vermittelt. Daniel HB9GVD wird am 23.10.2021 am Kurs teilnehmen. Die Kurse sind für USKA Mitglieder mit 60.- CHF Kursgeld zugänglich. Auch dieser Kurs wird ev. wiederholt.
