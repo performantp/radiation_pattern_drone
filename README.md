@@ -12,7 +12,7 @@ Variante 1: Welche anfangs Oktober 2021 nun bereits mit einem ersten Test läuft
 
 Variante 2: Im Hintergrund ist noch folgende zweite Lösung angedacht und die entsprechende Hardware wurde im September 2021 bereits beschafft.
 Mit einem Raspi Zero W (40g) sollen die Messwerte von einem RTL-SDR mit integriertem Transverter aufgesammelt werden und die Daten anschliessend mit rtl_power und/oder Python ausgewertet werden.
-Es gibt nun ein paar Fotos dazu.
+Es gibt nun ein paar Fotos dazu. Hier ein Rasperi Zero W ohne Gehäuse. 
 ![IMG_2489](https://user-images.githubusercontent.com/75325994/138608807-b7c73539-5f7c-415f-b8b7-e62ec20a3a13.JPG)
 
 Das ist ein ganz leichter Rasperi pi-pico mit nur 4g und kann Interpreter-mässig das gleiche wie ein Rasperi Zero W. 
