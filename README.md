@@ -12,6 +12,10 @@ Variante 1: Welche anfangs Oktober 2021 nun bereits mit einem ersten Test läuft
 
 Variante 2: Im Hintergrund ist noch folgende zweite Lösung angedacht und die entsprechende Hardware wurde im September 2021 bereits beschafft.
 Mit einem Raspi Zero W (40g) sollen die Messwerte von einem RTL-SDR mit integriertem Transverter aufgesammelt werden und die Daten anschliessend mit rtl_power und/oder Python ausgewertet werden.
+Es gibt nun ein paar Fotos dazu.
+![IMG_2489](https://user-images.githubusercontent.com/75325994/138608807-b7c73539-5f7c-415f-b8b7-e62ec20a3a13.JPG)
+Das ist ein ganz leichter Raspi Zero W. ![IMG_2488](https://user-images.githubusercontent.com/75325994/138608837-9320754c-431b-47e7-acee-5e92714bac29.JPG)
+
 
 Zu der Programmiersprache Python wurde von HB9FRV Ende September 2021 ein USKA HamAcademy durchgeführt. Es gibt voraussichtlich noch weitere Python Kurse. Auch wie man mit Python SDR Implementationen erstellt, wird von Mathias HB9FRV im Rahmen der USKA HamAcademy vermittelt. Daniel HB9GVD wird am 23.10.2021 am Kurs teilnehmen. Die Kurse sind für USKA Mitglieder mit 60.- CHF Kursgeld zugänglich. Auch dieser Kurs wird ev. wiederholt.
 
