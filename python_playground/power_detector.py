@@ -8,13 +8,13 @@ parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
                                  description='Extract and print power in dB from I/Q stream.',
                                  epilog='''
 
-Examples: Find peak power of signal at 1296.050 MHz within a bandwidth of 5 kHz.
+Examples: Find power of signal at 1296.050 MHz within a bandwidth of 5 kHz.
           SDR frontend runs with a center frequency of 1296 MHz and a sampling rate of 250 kHz.
 
           rtl_sdr -f 1296000000 -s 250000 -g 30 -| python3 power_detector.py -f 1296000000 -s 250000 -t 1296050000 --bw 5000 --uint8
 
 
-          Find peak power of signal at 29.050 MHz within a bandwidth of 1 kHz.
+          Find power of signal at 29.050 MHz within a bandwidth of 1 kHz.
           SDR frontend runs with a center frequency of 29 MHz and a sampling rate of 250 kHz.
 
           rtl_sdr -f 29000000 -s 250000 -g 30 -| python3 power_detector.py -f 29000000 -s 250000 -t 29050000 --bw 1000 --uint8
@@ -29,12 +29,13 @@ Examples: Find peak power of signal at 1296.050 MHz within a bandwidth of 5 kHz.
           - -f and -s must be given to rtl_sdr for the hardware and also to power_detector.py since it needs to know about those settings.
           - Use --uint8 for 8-bit I/Q streams (e.g. from the rtl_sdr tool). Two 32 bit floats are expected otherwise.
           - Abort with ctrl-c
+          - Divide by bandwidth to find PSD in dB/Hz
 ''')
 
 parser.add_argument('-s',   type=int,   metavar = 'FS',               required=True, help='SDR frontend sampling rate in Hz')
 parser.add_argument('-f',   type=int,   metavar = 'center_frequency', required=True, help='SDR center frequency in Hz')
 parser.add_argument('-t',   type=int,   metavar = 'signal_frequency', required=True, help='Frequency of the target signal in Hz')
-parser.add_argument('--bw', type=float, metavar = 'BW',               default=10000, help='Detector bandwidth in Hz. We look for the peak power within that window.\nDefault: 10000 (10 kHz)')
+parser.add_argument('--bw', type=float, metavar = 'BW',               default=10000, help='Detector bandwidth in Hz. We look for the power within that window.\nDefault: 10000 (10 kHz)')
 parser.add_argument('--integration-time', type=float, metavar = 'T',  default=1,     help='Integration time in s. Default: 1 second.')
 parser.add_argument('--uint8', action='store_true', help='I/Q stream is two uint8 instead of two 32 bit floats.')
 args = parser.parse_args()
@@ -74,11 +75,9 @@ while True:
         # We read 8*n bytes since each sample is a complex number consisting of two floats (i.e. 2*4 bytes)
         signal = np.frombuffer(sys.stdin.buffer.read(8*n), dtype=np.complex64)
     if len(signal) != n: break
-    spectrum = np.abs(np.fft.fft(signal*FFT_WINDOW, n))
-    spectrum_windowed = spectrum[target_bin_low:target_bin_high]
-    #power = np.max(spectrum_windowed)
-    power = np.max(20*np.log10(spectrum_windowed))
+    spectrum = np.fft.fft(signal*FFT_WINDOW)                           # First we compute the FFT (complex)
+    spectrum_windowed = spectrum[target_bin_low:target_bin_high]       # Then we extract the bins that are within the detector
+    power_bins = spectrum_windowed.real**2 + spectrum_windowed.imag**2 # We compute per-bin power (P = U**2 / R)
+    #power = np.sum(spectrum_windowed)
+    power = 10*np.log10(np.sum(power_bins))                            # Then we concert to dB
     print(power)
-    #plt.plot(spectrum,'*')
-    #plt.plot(f,spectrum,'*')
-    #plt.show()
